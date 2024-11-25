@@ -1,4 +1,4 @@
-# Soil Data Workflow
+# Soil Data Workflow for DSSAT R Framework
 
 This repository provides a modular workflow to fetch, process, and analyze soil data using the SSURGO database. It accepts a CSV file containing environment information, geographical coordinates, and metadata, processes the soil profiles, and outputs the results in multiple formats.
 
