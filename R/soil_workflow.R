@@ -9,7 +9,7 @@ library(dplyr)
 
 # Main workflow
 lonlat_tibble <- read.csv("coord_to_SSURGO_import.csv")
-lonlat_tibble <- lonlat_tibble %>% slice(1:5)
+
 # Initialize lists to store results
 all_soil_data <- list()
 all_soil_profiles <- list()

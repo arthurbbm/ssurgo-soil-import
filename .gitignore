@@ -1,0 +1,5 @@
+.DS_Store
+.Rprofile
+.Rproj.user/
+renv/
+ssurgo_soil_import.Rproj
