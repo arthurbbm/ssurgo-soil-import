@@ -3,3 +3,4 @@
 .Rproj.user/
 renv/
 ssurgo_soil_import.Rproj
+coord_to_SSURGO_import.csv

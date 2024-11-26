@@ -20,8 +20,8 @@ The input file must be a CSV file with the following columns:
 
 | year | environment_id | latitude | longitude | plantingDate | harvestDate | state | source |
 |---------|---------|---------|---------|---------|---------|---------|---------|
-| 2024 | Env1 | 40.123456 | -94.123456 | 2024-05-15 | 2024-09-20 | IA | Dataset A |
-| 2024 | Env2 | 40.234567 | -94.234567 | 2024-05-20 | 2024-09-25 | MO | Dataset B |
+| 2024 | 1 | 40.123456 | -94.123456 | 2024-05-15 | 2024-09-20 | IA | Dataset A |
+| 2024 | 2 | 40.234567 | -94.234567 | 2024-05-20 | 2024-09-25 | MO | Dataset B |
 
 ### **Columns Description**
 
