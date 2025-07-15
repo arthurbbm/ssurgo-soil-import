@@ -18,10 +18,10 @@ This repository provides a modular workflow to fetch, process, and analyze soil 
 
 The input file must be a CSV file with the following columns:
 
-| year | environment_id | latitude | longitude | plantingDate | harvestDate | state | source |
-|---------|---------|---------|---------|---------|---------|---------|---------|
-| 2024 | 1 | 40.123456 | -94.123456 | 2024-05-15 | 2024-09-20 | IA | Dataset A |
-| 2024 | 2 | 40.234567 | -94.234567 | 2024-05-20 | 2024-09-25 | MO | Dataset B |
+| year | environment_id | latitude | longitude | state | source |
+|---------|---------|---------|---------|---------|---------|
+| 2024 | 1 | 40.123456 | -94.123456 | IA | Dataset A |
+| 2024 | 2 | 40.234567 | -94.234567 | MO | Dataset B |
 
 ### **Columns Description**
 
@@ -29,10 +29,8 @@ The input file must be a CSV file with the following columns:
 2.  **`environment_id`**: A unique identifier for the environment or location (e.g., `Env1`).
 3.  **`latitude`**: Latitude coordinate in decimal degrees (e.g., `40.123456`).
 4.  **`longitude`**: Longitude coordinate in decimal degrees (e.g., `-94.123456`).
-5.  **`plantingDate`**: The planting date for the crop in `YYYY-MM-DD` format.
-6.  **`harvestDate`**: The harvest date for the crop in `YYYY-MM-DD` format.
-7.  **`state`**: The U.S. state where the environment is located (e.g., `IA` for Iowa).
-8.  **`source`**: The dataset or source of the data (e.g., `Dataset A`).
+5.  **`state`**: The U.S. state where the environment is located (e.g., `IA` for Iowa).
+6.  **`source`**: The dataset or source of the data (e.g., `Dataset A`).
 
 **Example Input File**: `coord_to_SSURGO_import.csv`
 
